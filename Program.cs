@@ -43,6 +43,22 @@ namespace Linq_Exercises
     "Francisco", "Tre"};
 
             List<string> descendedOrdered = names.OrderByDescending(name => name).ToList();
+
+            // Build a collection of these numbers sorted in ascending order
+            List<int> numbersEx = new List<int>()
+                {
+                    15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+                };
+            List<int> ascendingOrder = numbers.OrderBy(number => number).ToList();
+
+
+            // Output how many numbers are in this list
+            List<int> numbers2 = new List<int>()
+                {
+                    15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+                };
+            // List<int> numberList = numbers.Count(number => number).ToList();
+            int count = numbers2.Count();
         }
     }
 }
