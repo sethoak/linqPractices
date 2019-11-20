@@ -1,0 +1,11 @@
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\obj\Debug\netcoreapp3.0\Linq-Exercises.csprojAssemblyReference.cache
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\obj\Debug\netcoreapp3.0\Linq-Exercises.AssemblyInfoInputs.cache
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\obj\Debug\netcoreapp3.0\Linq-Exercises.AssemblyInfo.cs
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\bin\Debug\netcoreapp3.0\Linq-Exercises.exe
+C:\Users\Oakley\desktop\workspace\Linq-Exercises\bin\Debug\netcoreapp3.0\Linq-Exercises.deps.json
+C:\Users\Oakley\desktop\workspace\Linq-Exercises\bin\Debug\netcoreapp3.0\Linq-Exercises.runtimeconfig.json
+C:\Users\Oakley\desktop\workspace\Linq-Exercises\bin\Debug\netcoreapp3.0\Linq-Exercises.runtimeconfig.dev.json
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\bin\Debug\netcoreapp3.0\Linq-Exercises.dll
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\bin\Debug\netcoreapp3.0\Linq-Exercises.pdb
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\obj\Debug\netcoreapp3.0\Linq-Exercises.dll
+c:\Users\Oakley\desktop\workspace\Linq-Exercises\obj\Debug\netcoreapp3.0\Linq-Exercises.pdb
