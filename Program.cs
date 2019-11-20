@@ -66,6 +66,34 @@ namespace Linq_Exercises
                     2340.29, 745.31, 21.76, 34.03, 4786.45, 879.45, 9442.85, 2454.63, 45.65
                 };
             double sum = purchases.Sum();
+
+            // What is our most expensive product?
+            List<double> prices = new List<double>()
+                {
+                    879.45, 9442.85, 2454.63, 45.65, 2340.29, 34.03, 4786.45, 745.31, 21.76
+                };
+            double maxPrice = prices.Max();
+
+            /*
+    Store each number in the following List until a perfect square
+    is detected.
+
+    Ref: https://msdn.microsoft.com/en-us/library/system.math.sqrt(v=vs.110).aspx
+*/
+            List<int> wheresSquaredo = new List<int>()
+                {
+                    66, 12, 8, 27, 82, 34, 7, 50, 19, 46, 81, 23, 30, 4, 68, 14
+                };
+            var result = wheresSquaredo.TakeWhile(num =>
+            {
+                bool isSquared = Math.Sqrt(num) % 1 == 0;
+                return !isSquared;
+            }).ToList();
+
+            foreach (int item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
