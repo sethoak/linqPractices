@@ -33,6 +33,16 @@ namespace Linq_Exercises
                 bool isEquation = (selected % 6 == 0 || selected % 4 == 0);
                 return isEquation;
             }).ToList();
+
+            // Order these student names alphabetically, in descending order (Z to A)
+            List<string> names = new List<string>()
+                {"Heather", "James", "Xavier", "Michelle", "Brian", "Nina",
+    "Kathleen", "Sophia", "Amir", "Douglas", "Zarley", "Beatrice",
+    "Theodora", "William", "Svetlana", "Charisse", "Yolanda",
+    "Gregorio", "Jean-Paul", "Evangelina", "Viktor", "Jacqueline",
+    "Francisco", "Tre"};
+
+            List<string> descendedOrdered = names.OrderByDescending(name => name).ToList();
         }
     }
 }
